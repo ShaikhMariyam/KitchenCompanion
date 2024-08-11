@@ -1,0 +1,72 @@
+/* Add your CSS styles here or use a CSS-in-JS solution */
+
+/* Example: */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Paper {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Typography {
+    margin-bottom: 10px;
+}
+
+.Box {
+    margin-top: 20px;
+}
+
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.Card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.CardMedia {
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 140px;
+}
+
+.CardContent {
+    flex: 1 0 auto;
+}
+
+.CardActions {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Button {
+    margin-bottom: 10px;
+}
+
+.TextField {
+    margin-bottom: 10px;
+}

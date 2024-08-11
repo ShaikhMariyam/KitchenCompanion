@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  overflow: hidden;
+  height: auto;
+  min-height: 97px;
+  padding: 0 50px;
+  background-color: white;
+}
+
+body {
+  padding-top: 130px; 
+}
+
+.header .death {
+  height: 80px;
+}
+
+.header .deathforahmed {
+  height: 80px;
+  width: 40px;
+}
+
+.header nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: auto;
+  height: auto;
+}
+
+.header nav a {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 40px 10px;
+  position: relative;
+}
+
+.header .Rightside {
+  display: flex;
+  align-items: center;
+}
+
+.header .form {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  margin-left: 30px;
+  border-left: 1px solid white;
+}
+
+.header .Rightside .icon {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.header .Rightside img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}

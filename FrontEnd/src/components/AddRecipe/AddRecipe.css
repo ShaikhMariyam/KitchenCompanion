@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: url('https://cdn1.vectorstock.com/i/1000x1000/20/60/cookery-seamless-background-vector-2052060.jpg') no-repeat center center fixed; */
+    background-size: cover;
+    opacity: 1;
+}
+  
+.add-recipe-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.add-recipe-form h1, .add-recipe-form h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.add-recipe-form input, .add-recipe-form select, .add-recipe-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-recipe-form button {
+  background-color: #ff4b5c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-recipe-form button:hover {
+  background-color: #ff1e3c;
+}
+
+.add-recipe-form .ingredient, .add-recipe-form .method {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-recipe-form .ingredient input, .add-recipe-form .method input {
+  width: calc(50% - 10px);
+}
+
+.add-recipe-form .add-more {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.add-recipe-form .add-more:hover {
+  background-color: #45a049;
+}
+
+/* AddRecipe.css */
+
+.suggestions-container {
+  position: relative;
+  width: 100%;
+  margin-top: 4px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.suggestions-container div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.suggestions-container div:hover {
+  background-color: #f7f7f7;
+}
+
+.react-autosuggest__suggestions-container {
+  display: block;
+}
+
+.react-autosuggest__suggestions-list {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #f0f0f0;
+}

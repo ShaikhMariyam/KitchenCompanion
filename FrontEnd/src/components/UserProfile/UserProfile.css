@@ -1,0 +1,62 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-content {
+    width: 400px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.info-item {
+    margin: 5px 0;
+}
+
+.info-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.api-response {
+    margin-bottom: 20px;
+}
+
+.response-message {
+    color: #555;
+}
+
+.dashboard-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-link {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.dashboard-link:hover {
+    text-decoration: underline;
+}

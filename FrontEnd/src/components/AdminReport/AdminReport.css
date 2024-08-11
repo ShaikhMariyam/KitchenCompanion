@@ -1,0 +1,23 @@
+.admin-report-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.section-header {
+    margin-bottom: 16px;
+}
+
+.section-subheader {
+    margin-bottom: 8px;
+}
+
+.table-container {
+    margin-bottom: 16px;
+}
+
+.divider {
+    margin: 16px 0;
+}
